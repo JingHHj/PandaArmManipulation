@@ -1,9 +1,17 @@
-# A project apply manipulation algorithm on a 7-DOF panda arm
+# Panda Arm Manipulation: 
+This is a project that apply path planning algorithms on a 7-DOF panda arm for multiple manipulation algorithm
+
 <p align="center">
-  <img src="assets/Video_Demos/RRT_Star_Environment_03_02.gif" alt="Panda Arm" width="600"/>
+  <img src="assets/Video_Demos/RRT_Star_Environment_03_02.gif" alt="Panda Arm" width="500" height="500"/>
+  
 </p>
 
-[[Project report](./assets/project%20report.pdf) | [Presentation](./assets/Project_Video.mp4) | [ Gif Results](assets/Video_Demos) ]
+<p align="center" style="font-size: 20px;">
+  [<a href="./assets/project%20report.pdf">Project report</a> |
+  <a href="./assets/Project_Video.mp4">Presentation</a> |
+  <a href="assets/Video_Demos">Gif Results</a>] 
+</p>
+
 
 ## Content
 * `main.py`: The main python file 
@@ -56,21 +64,11 @@ In enviroment two, all the obstacles are static and there's four goal point (the
 #### 3. Construction Site 2 (dynamic obstacles)
 In enviroment two, there's three moving obstacles (the R2D2) and there's four goal point (the four blue dot around the green pillar in front of the arm). Our goal is to have the arm end-effector reach the goal points in a given priority withput hitting the moving obstacles.
 
-<div style="display: flex; justify-content: center; gap: 20px; align-items: center;">
-  <div style="text-align: center;">
-    <img src="assets/images/moving obstacles 1.png" alt="a" width="250"/>
-    <div>(a)</div>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/images/moving obstacles 2.png" alt="b" width="250"/>
-    <div>(b)</div>
-  </div>
-  <div style="text-align: center;">
-    <img src="assets/images/moving obstacles 3.png" alt="c" width="250"/>
-    <div>(c)</div>
-  </div>
-</div>
-
+<p align="center">
+  <img src="assets/images/moving%20obstacles%201.png" alt="a" width="250"/>
+  <img src="assets/images/moving%20obstacles%202.png" alt="b" width="250"/>
+  <img src="assets/images/moving%20obstacles%203.png" alt="c" width="250"/>
+</p>
 <p align="center"><em>Figure 4: Construction Site 2 (dynamic obstacles)</em></p>
 
 
